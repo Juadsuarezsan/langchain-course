@@ -1,0 +1,46 @@
+# Entornos Virtuales
+# Ignora la carpeta del entorno virtual para no subir todas las librerías instaladas.
+/venv/
+/.venv/
+/env/
+/.env/
+/env.bak/
+/.env.bak/
+
+# Archivos de caché y compilados de Python
+# Python genera estos archivos automáticamente para acelerar la ejecución.
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos de configuración de IDEs y editores
+# Cada desarrollador tiene su propia configuración, no debería estar en el repositorio.
+.vscode/
+.idea/
+*.swp
+
+# Paquetes y distribución
+# Estos se generan al construir una librería para ser distribuida.
+/build/
+/dist/
+*.egg-info/
+*.egg
+
+# Archivos de sistema operativo
+# Archivos específicos de macOS, Windows o Linux.
+.DS_Store
+Thumbs.db
+
+# Logs y bases de datos locales
+# Archivos que cambian constantemente y no deben ser compartidos.
+*.log
+*.sqlite3
+*.db
+
+# Cuadernos de Jupyter Notebook
+# Ignora los puntos de control autogenerados por Jupyter.
+.ipynb_checkpoints
+
+# Archivos de dotenv
+# ¡MUY IMPORTANTE! Nunca subas tus secretos o variables de entorno.
+.env
